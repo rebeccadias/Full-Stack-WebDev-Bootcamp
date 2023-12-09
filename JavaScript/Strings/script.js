@@ -143,6 +143,7 @@ if (username1.length >= 6) {
 //Basic use
 const greeting1 = "Hello, world";
 const extractedWord = greeting1.slice(7, 90);
+//console.log(extractedWord);
 
 //omitting the end index
 const text = "Hello, world";
@@ -164,7 +165,7 @@ const result3 = sentence.slice(-6, -1);
 const mySentence = "Hello, world";
 const words = mySentence.split(",");
 
-//Limit number od split
+//Limit number of split
 const fruits = "apple,banana,pear";
 const limitedFruits = fruits.split(",", 1);
 
@@ -181,13 +182,15 @@ const letters = word.split("");
 //----------
 
 //Basic usage
+//first occurance of the string, -1 if not found
 const sentences = "Hello,world";
 const index = sentences.indexOf("hello");
+console.log(index);
 
 //---------
 //==STRING TRIM===
 //----------
-//Trimming user input
+//Trimming user input; remove white spaces
 const userInput = "   emma@gmail.com   ";
 const emailTrimmed = userInput.trim();
 
