@@ -16,6 +16,7 @@ const UseStateComp = () => {
         Decrease Count
       </button>
       <button onClick={() => SetCount(0)}> Reset Count </button>
+      <div>testing</div>
     </div>
   );
 };
