@@ -1,12 +1,13 @@
 import Message from "./props/Message";
 import Eevent from "./events/Eevent";
 import UseStateComp from "./UseState/UseState";
+import DataRendering from "./dataRendering/DataRendering";
 
 const App = () => {
   return (
     <div>
       <h1>app is up and running</h1>
-      <UseStateComp />
+      <DataRendering />
     </div>
   );
 };
