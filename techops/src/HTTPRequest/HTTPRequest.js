@@ -22,6 +22,19 @@ const HTTPRequest = () => {
   //       .catch((err) => console.log(err));
   //   }, []);
 
+  // using async / await
+
+  //   useEffect(() => {
+  //     const fetchData = async () => {
+  //       try {
+  //         const response = await axios.get(apiURL);
+  //         console.log(response.data);
+  //       } catch (error) {
+  //         console.log(error);
+  //       }
+  //     };
+  //   }, []);
+
   return (
     <div>
       <h1>HTTP Request</h1>
